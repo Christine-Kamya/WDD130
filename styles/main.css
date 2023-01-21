@@ -1,0 +1,17 @@
+h1, a {
+    color:aquamarine;
+}
+
+p{
+    color:brown;
+}
+
+#active {
+    background-color:blueviolet;
+    color:beige;
+
+}
+
+.room {
+    background-color:blanchedalmond;
+}
