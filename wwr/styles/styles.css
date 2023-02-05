@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Lobster&display=swap');
 #content{
 
 max-width: 1600px;
@@ -6,13 +7,24 @@ max-width: 1600px;
     
          body {
             background-color: #fcfbfb; 
+            font-family: Abel, Arial, sans-serif;
+            font-size: 22px;
+            margin: 0;
+            padding: 0;
         }
         header {
             background-color: #ffffff;
+            
+        }
+    
+        h2 {
+            margin: 0;
+            font-family: Lobster, Arial, sans-serif;
         }
 
     h4{
         color:black ;
+        font-family: Lobster, Arial, sans-serif;
     }
     
     nav a {
@@ -20,6 +32,7 @@ max-width: 1600px;
         background-color:white ;
         color:black ;
         text-decoration: none;
+        padding: 35px;
     }
     nav a:hover {
         text-align: center;
@@ -58,12 +71,20 @@ max-width: 1600px;
         background-color: blueviolet;
         color: black;
         text-decoration: none;
+        font-size: 18px;
+        padding: 15px 30px;
+        margin-top: 50px;
+        border-radius: 5px;
     }
 
     .join{
        background-color: skyblue;
        color: black ;
        text-decoration: none;
+       font-size: 18px;
+       padding: 15px 30px;
+       margin-top: 50px;
+       border-radius: 5px;
     }
 
     .book:hover{
@@ -76,9 +97,31 @@ max-width: 1600px;
         color:black ;
     }
 
+    .rivers-card{
+        margin: 200px 0;
+    }
+
+    .camping-card{
+        margin: 200px 0;
+    }
+
+    .rapids-card{
+        margin: 200px 0;
+    }
+
+    .card-img {
+        border: 10px solid #d9c2a3;
+    }
+
+    main section img {
+        box-sizing: border-box;
+    }
+                
+
     .msg{
         background-color:blueviolet ;
         color:black ;
+        line-height: 1.5em;
     }
 
     #background{
@@ -89,31 +132,48 @@ max-width: 1600px;
     footer{
         background-color:white ;
         color:black ;
+        margin-top: 200px;
     }
 
     .home-title{
         background-color: white;
         color:black ;
+        font-family: Lobster, Arial, sans-serif;
+        font-size: 2em;
+        margin-top: 10px;
     }
+    .msg {
+        padding: 35px;
+    }
+     
 
     .msg h2{
         color: black
+       
     }
 
     .msg p{
         color: black
+        font-size: .8em;
+        padding-bottom: 15px;
     }
 
     .icon {
         width: 80px;
+        padding-top: 10px;
     }
     
     .logo{
         width: 80px;
     }
 
+    #logo_link{
+        padding-top: 5px;
+    }
+
      footer{
         color: black;
+        padding: 25px 50px;
      }
 
     footer a{
@@ -132,6 +192,10 @@ max-width: 1600px;
     footer p a:hover {
         text-decoration: underline;
     }    
+
+    footer .social img {
+        padding-top: 15px;
+    }
 
 
    
