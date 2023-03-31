@@ -21,7 +21,7 @@ max-width: 1600px;
 
         .home-grid {
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
         }
 
        
@@ -32,13 +32,17 @@ max-width: 1600px;
             color: purple;
           
       }
+      #heading{
+        grid-column: 2/4;
+      }
     
+
         h2 {
             font-family: Lobster, Arial, sans-serif;
             text-align: center;
-            display: flex;
+            /* display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: center; */
         }
 
     h4{
@@ -125,16 +129,15 @@ max-width: 1600px;
         background-color: aqua ;
         color:black ;
     }
-
-   
-
-    .marketing {
-        margin: 200px 0;
-        grid-column: 2/4;
+    .marketing{
+        grid-column: 1/5;
         grid-row: 2/3;
     }
+   
+
 
     .marketing2-img{
+        grid-column: 2/3;
         text-align: center;
         background-color: black;
         margin-top: 200px;
@@ -144,14 +147,20 @@ max-width: 1600px;
        
     }
 
-
-
-    p{
-        
-        display: block;
-        width: 100%
+    .marketing-img3{
+        width: 100%;
+        margin-top: 200px;
+        padding: 20px 20px;
     }
 
+    .marketing-img4{
+        width: 100%;
+    }
+
+
+
+
+  
 
     
 
